@@ -1,6 +1,6 @@
 # Predicting ATP Match Outcomes: From Traditional Rating Systems to Graph Attention Networks
 
-> **Work in Progress**: This project was started as part of an MS Data Science capstone at Tufts University, but certain adjustments are still being made in this repo. 
+> **Work in Progress**: This project was started as part of an MS Data Science capstone at Tufts University, but certain adjustments are still being made and are ongoing...
 
 ## Overview
 
