@@ -1,0 +1,29 @@
+# python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# data & output folders (at any level)
+notebooks/
+**/notebooks/
+
+style_factors/
+**/style_factors/
+
+elo_nmf_results/
+**/elo_nmf_results/
+
+glicko2_nmf_results/
+**/glicko2_nmf_results/
+
+gat_cache/
+**/gat_cache/
+
+gat_outputs/
+**/gat_outputs/
+
+trained_models/
+**/trained_models/
+
+model_outputs/
+**/model_outputs/
