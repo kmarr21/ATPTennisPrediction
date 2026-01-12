@@ -169,7 +169,7 @@ Before running the GAT, the following must exist in Neo4j:
 
 ```bash
 # Generate training data
-python prepare_gat_data.py
+python prepare_gat_data_v2.py
 ```
 
 This script:
@@ -321,18 +321,18 @@ for epoch in range(max_epochs):
 ### Single Training Run
 
 ```bash
-python train_tennis_gat.py
+python train_tennis_gat_v5.py
 ```
 
 With custom parameters:
 ```bash
-python train_tennis_gat.py --hidden_dim 128 --num_heads 4 --dropout 0.3 --lr 0.0005
+python train_tennis_gat_v5.py --hidden_dim 128 --num_heads 4 --dropout 0.3 --lr 0.0005
 ```
 
 ### Hyperparameter Sweep
 
 ```bash
-python train_tennis_gat.py --sweep
+python train_tennis_gat_v5.py --sweep
 ```
 
 Tests multiple configurations and saves results to `gat_outputs/gat_sweep_results_*.csv`.
